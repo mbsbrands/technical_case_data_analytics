@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Standardized customer data from source
+    columns:
+      - name: customer_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: Customer first name
+      - name: last_name
+        description: Customer last name
+      - name: email
+        description: Customer email address
+        tests:
+          - not_null
+      - name: country
+        description: Customer country
+      - name: brand_id
+        description: Foreign key to brands
+        tests:
+          - relationships:
+              to: ref('stg_brands')
+              field: brand_id
+
+  - name: stg_products
+    description: Standardized product data from source
+    columns:
+      - name: product_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null

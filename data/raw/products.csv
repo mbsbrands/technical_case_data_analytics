@@ -1,0 +1,11 @@
+product_id,product_name,product_description,price,category_id,brand_id,created_at,updated_at,is_active
+101,Ergonomic Desk Chair,High-quality office chair with lumbar support,129.99,1,1,2023-01-01,2023-01-01,true
+102,Modern Coffee Table,Stylish coffee table with storage space,199.99,1,1,2023-01-01,2023-01-01,true
+103,Wireless Headphones,Noise-cancelling bluetooth headphones,89.99,2,2,2023-01-01,2023-01-15,true
+104,Smart Watch,Fitness tracker and notification display,149.99,2,2,2023-01-02,2023-01-02,true
+105,Yoga Mat,Premium non-slip exercise mat,39.99,3,3,2023-01-02,2023-01-02,true
+106,Running Shoes,Lightweight athletic shoes with cushioning,79.99,3,3,2023-01-03,2023-01-03,true
+107,Kitchen Blender,High-speed blender for smoothies and food prep,69.99,4,1,2023-01-03,2023-01-03,true
+108,Stainless Steel Pots Set,5-piece cookware set,159.99,4,1,2023-01-04,2023-01-04,true
+109,Smartphone Stand,Adjustable phone holder for desk,19.99,2,2,2023-01-04,2023-01-20,false
+110,Laptop Bag,Padded 15" laptop carrying case,49.99,5,3,2023-01-05,2023-01-05,true

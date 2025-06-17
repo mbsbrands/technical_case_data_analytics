@@ -1,0 +1,11 @@
+category_id,category_name,category_description,parent_category_id,created_at,updated_at
+1,Furniture,Home and office furniture,NULL,2023-01-01,2023-01-01
+2,Electronics,Tech gadgets and accessories,NULL,2023-01-01,2023-01-01
+3,Sports & Fitness,Athletic equipment and fitness gear,NULL,2023-01-01,2023-01-01
+4,Kitchen,Cookware and kitchen appliances,NULL,2023-01-01,2023-01-01
+5,Accessories,Various accessory items,NULL,2023-01-01,2023-01-01
+11,Office Furniture,Furniture for office spaces,1,2023-01-02,2023-01-02
+12,Living Room,Furniture for living spaces,1,2023-01-02,2023-01-02
+21,Audio Devices,Headphones and speakers,2,2023-01-02,2023-01-02
+22,Wearable Tech,Smart watches and fitness trackers,2,2023-01-02,2023-01-02
+31,Yoga & Pilates,Equipment for yoga and pilates,3,2023-01-03,2023-01-03

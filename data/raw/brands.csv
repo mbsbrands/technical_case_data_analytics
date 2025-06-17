@@ -1,0 +1,4 @@
+brand_id,brand_name,brand_description,website,created_at,updated_at
+1,HomeStyle,"Home decor, furniture and kitchen essentials",https://homestyle.example.com,2023-01-01,2023-01-01
+2,TechEdge,"Electronics, gadgets and smart devices",https://techedge.example.com,2023-01-01,2023-01-01
+3,ActiveLife,"Sports equipment and fitness accessories",https://activelife.example.com,2023-01-01,2023-01-01
