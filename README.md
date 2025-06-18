@@ -2,7 +2,9 @@
 
 ## Visão Geral
 
-Este desafio técnico tem como objetivo avaliar suas habilidades em arquitetura de dados, modelagem SQL e processos de transformação de dados. Você irá trabalhar com um conjunto de dados de e-commerce que precisa de reestruturação e otimização.
+Este desafio técnico tem como objetivo avaliar suas habilidades em arquitetura de dados, modelagem SQL e processos de transformação de dados. Você irá trabalhar com um conjunto de dados de e-commerce que precisa de reestruturação e otimização.  
+
+***É importante ter em mente de que os códigos não serão de fato executados, a avaliação será sobre a organização e apresentação das idéias do desafiado e suas habilidades de demonstrar seus conhecimentos sobre arquitetura de bancos de dados. Assim como a organização de seus commits no repositório publico do github que deve ser disponibilizado como resposta à esse desafio.***
 
 ## Contexto
 
@@ -30,14 +32,11 @@ Sua tarefa é analisar a arquitetura de dados atual e implementar melhorias para
 - Implementar modelagem adequada de dados com convenções de nomenclatura claras
 - Criar uma arquitetura em camadas (raw, staging, intermediate e marts)
 - Escrever transformações SQL eficientes
-- Documentar sua abordagem e justificativa para decisões de design
 - Incluir pelo menos um exemplo de testes de qualidade de dados
 
-### Opcionais (Pontos Extras)
+### Opcionais (Extras)
 - Implementar a solução usando dbt (data build tool)
-- Criar um diagrama simples de linhagem de dados
-- Propor melhorias para o processo de ingestão de dados
-- Sugerir métricas e KPIs relevantes para o negócio
+- Criar um diagrama simples da linhagem de dados proposta
 
 ## Conjunto de Dados
 
@@ -50,7 +49,7 @@ O conjunto de dados representa transações de e-commerce em várias marcas. Ele
 - Categorias de Produtos (Product Categories)
 - Informações de Marcas (Brands)
 
-Os arquivos de dados brutos estão disponíveis no diretório `data/raw` em formato CSV.
+Os arquivos de dados brutos estão disponíveis no diretório `data/raw` em formato CSV. Os arquivos contem apenas algumas poucas linhas, pois o foco deles é servir como amostra do conteúdo dos dados de cada uma das fontes. Porém, como iremos avaliar a proposta de arquitetura levando em consideração um cenário de Big Data, o uso de boas práticas para performance de queries em ambientes de grande volume de dados é importante para a solução.  
 
 ## Modelos Existentes
 
@@ -79,7 +78,7 @@ Por favor, envie sua solução:
 
 1. Fazendo um fork deste repositório
 2. Implementando sua solução
-3. Ccompartilhando o link do seu repositório (que deve estar público para que tenhâmos acesso)
+3. Compartilhando o link do seu repositório (que deve estar público para que tenhâmos acesso)
 
 Sua submissão deve incluir:
 
@@ -99,7 +98,7 @@ Sua solução será avaliada com base em:
 
 ## Tempo Esperado
 
-Você tem **48 horas** a partir do recebimento para enviar sua solução. Estimamos que o caso técnico leve aproximadamente **4-8 horas** para ser concluído.
+Você tem **72 horas** a partir do recebimento para enviar sua solução.  
 
 ## Problemas Específicos a Serem Resolvidos
 

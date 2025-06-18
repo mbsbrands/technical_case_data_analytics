@@ -10,51 +10,33 @@ sources:
         columns:
           - name: customer_id
             description: Primary key
-            tests:
-              - unique
-              - not_null
 
       - name: products
         description: Product information
         columns:
           - name: product_id
             description: Primary key
-            tests:
-              - unique
-              - not_null
 
       - name: orders
         description: Order header information
         columns:
           - name: order_id
             description: Primary key
-            tests:
-              - unique
-              - not_null
 
       - name: order_items
         description: Order line items
         columns:
           - name: order_item_id
             description: Primary key
-            tests:
-              - unique
-              - not_null
 
       - name: product_categories
         description: Product category information
         columns:
           - name: category_id
             description: Primary key
-            tests:
-              - unique
-              - not_null
 
       - name: brands
         description: Brand information
         columns:
           - name: brand_id
             description: Primary key
-            tests:
-              - unique
-              - not_null

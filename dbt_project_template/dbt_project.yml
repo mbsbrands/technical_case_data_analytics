@@ -17,6 +17,4 @@ clean-targets:
   - "dbt_packages"
   - "logs"
 
-models:
-  ecommerce_analytics:
-    # Configure your models here
+   
