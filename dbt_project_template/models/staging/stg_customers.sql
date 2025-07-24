@@ -1,5 +1,9 @@
--- Example of a staging model
--- You can use this template to create your staging models
+-- Example of a staging model for customers
+
+{{
+    "materialized": "table",
+    "tags": []
+}}
 
 WITH source AS (
     SELECT * FROM {{ source('raw', 'customers') }}

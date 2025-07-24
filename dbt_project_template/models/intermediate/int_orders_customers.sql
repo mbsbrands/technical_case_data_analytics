@@ -1,8 +1,17 @@
 -- Example of an intermediate model that joins orders and customers
--- This represents a pattern you might consider for your solution
+
+{{
+    "materialized": "incremental",
+    "unique_key": "order_id",
+    "tags": []
+}}
 
 WITH orders AS (
     SELECT * FROM {{ ref('stg_orders') }}
+{{ if is_incremental() }}
+    WHERE updated_at >= (SELECT MAX(updated_at) FROM {{ this }})
+{{ endif }}
+
 ),
 
 customers AS (
@@ -23,6 +32,8 @@ SELECT
     c.email,
     c.city,
     c.state,
-    c.country
+    c.country,
+    o.created_at,
+    o.updated_at
 FROM orders o
 LEFT JOIN customers c ON o.customer_id = c.customer_id
